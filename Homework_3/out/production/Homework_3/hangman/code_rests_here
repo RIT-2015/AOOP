@@ -1,0 +1,32 @@
+//File wordFile = new File(args[0]);
+//Scanner fileScanner = new Scanner(wordFile);
+
+
+
+            //--------------------------------------------------------------
+//            Scanner input = new Scanner(System.in);
+//            String word = "abcdefghijk";
+            //--------------------------------------------------------------
+            int wrongAttempts = 0;
+            /*int counter = 0;
+            while (wrongAttempts < 8 && counter < word.length()) {
+                System.out.println(players[i][0] + ": ");
+                String inputChar = input.next();
+                if (inputChar.length() != 1) {
+                    System.out.println("Please enter valid input");
+                    System.exit(0);
+                }
+                if (word.contains(inputChar)) {
+                    counter++;
+                    continue;
+                } else {
+                    wrongAttempts++;
+                    System.out.println("No of wrongs:  " + wrongAttempts);
+                }
+            }*/
+//            if (wrongAttempts == 8) {
+//                players[i][1] = String.valueOf(-5);
+//            } else {
+//                players[i][1] = String.valueOf(10);
+//                System.out.println("well Done " + players[i][0]);
+//            }
