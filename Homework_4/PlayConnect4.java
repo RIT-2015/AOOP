@@ -1,10 +1,29 @@
+/*
+ * PlayConnect4.java
+ *
+ * Version: 1: PlayConnect4.java,v 1 9/19/2015 16:34:23
+ *
+ * Revisions: 1.0 initial version
+ *
+ */
+
 import java.util.Scanner;
 
-/**
- * Created by Pratik on 9/18/2015.
- */
 public class PlayConnect4 {
+    /**
+     * This class is used to play the connect-4 game. It initializes the game
+     * object and players.
+     *
+     * @author      Pratik kulkarni
+     * @author      Kapil dole
+     */
 
+    /**
+     * The main method.
+     * It will ask players to enter their names and game-piece character.
+     * And initialize the game object.
+     * @param args    (ignored)
+     */
     public static void main(String[] args) {
         Connect4Field theGame = new Connect4Field();
         Player[] players = new Player[2];
@@ -18,7 +37,7 @@ public class PlayConnect4 {
                 System.out.println("Illegal name");
                 System.exit(1);
             }
-            System.out.println("What's the Game piece of Player " + i+1 + ": ");
+            System.out.println("What's the Game piece of Player " + (i+1) + ": ");
             gamePiece = inputScanner.next();
             if (gamePiece.length() != 1) {
                 System.out.println("Illegal Game piece");
