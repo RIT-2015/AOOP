@@ -1,3 +1,4 @@
+package WithComputer;
 public interface Connect4FieldInterface {
     public boolean checkIfPiecedCanBeDroppedIn(int column);
     public void dropPieces(int column, char gamePiece);

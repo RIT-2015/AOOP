@@ -7,6 +7,7 @@
  *            2.0 Added methods required by computer-player
  *
  */
+package WithComputer;
 
 public class Connect4Field implements Connect4FieldInterface {
     /**

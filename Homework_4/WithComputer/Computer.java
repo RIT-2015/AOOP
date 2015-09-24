@@ -6,7 +6,7 @@
  * Revisions: 1.0 initial version
  *
  */
-
+package WithComputer;
 import java.util.Random;
 
 public class Computer implements PlayerInterface {
