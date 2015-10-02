@@ -1,11 +1,14 @@
 /*
- * PlayConnect4.java
+ * WithPlayer.PlayConnect4.java
  *
- * Version: 1: PlayConnect4.java,v 1 9/19/2015 16:34:23
+ * Version: 1: WithPlayer.PlayConnect4.java,v 1 9/19/2015 16:34:23
  *
  * Revisions: 1.0 initial version
  *
  */
+
+
+package WithPlayer;
 
 import java.util.Scanner;
 

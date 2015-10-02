@@ -1,7 +1,7 @@
 /*
  * PlayConnect4WithComputer.java
  *
- * Version: 1: PlayConnect4.java,v 1 9/19/2015 16:34:23
+ * Version: 1: WithPlayer.PlayConnect4.java,v 1 9/19/2015 16:34:23
  *
  * Revisions: 1.0 initial version
  *
@@ -42,7 +42,7 @@ public class PlayConnect4WithComputer {
         System.out.println("What's the Game piece of the player " + 
                           "(Computer uses +, Select any other character you like): ");
         gamePiece = inputScanner.next();
-        if (gamePiece.length() != 1) {
+        if (gamePiece.length() != 1 && gamePiece.equals("+")) {
             System.out.println("Illegal Game piece");
             System.exit(1);
         }

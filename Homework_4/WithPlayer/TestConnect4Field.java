@@ -1,3 +1,5 @@
+package WithPlayer;
+
 public class TestConnect4Field {
 
     public Connect4Field aConnect4Field = new Connect4Field();
@@ -6,7 +8,7 @@ public class TestConnect4Field {
 
     public void dropTest( int column ) {
         System.out.println("Can it be dropped in " +
-                column + ": " 	   +
+                column + ": "  +
                 aConnect4Field.checkIfPiecedCanBeDroppedIn(column));
     }
     public void testIt() {

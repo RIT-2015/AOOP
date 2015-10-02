@@ -63,11 +63,11 @@ public class Computer implements PlayerInterface {
     /**
      * Used to replicate the game. Initializes the clone object with current
      * players.
-     * @param player    Player object (human player)
+     * @param player    Player.Player object (human player)
      * @param computer  Computer object (computer player)
      */
     public void replicateTheGame(PlayerInterface player, PlayerInterface computer) {
-        //cloneOfTheGame.setThePlayers(((Connect4Field) theGame).getThePlayers());
+        //cloneOfTheGame.setThePlayers(((Player.Connect4Field) theGame).getThePlayers());
         cloneOfTheGame.init(player, computer);
     }
 

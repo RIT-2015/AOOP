@@ -1,12 +1,14 @@
 /*
- * Connect4Field.java
+ * WithPlayer.Connect4Field.java
  *
- * Version: 2: Connect4Field.java,v 2 9/21/2015 16:34:23
+ * Version: 2: WithPlayer.Connect4Field.java,v 2 9/21/2015 16:34:23
  *
  * Revisions: 1.0 initial version
  *            2.0 Added methods required by computer-player
  *
  */
+
+package WithPlayer;
 
 public class Connect4Field implements Connect4FieldInterface {
     /**

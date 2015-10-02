@@ -1,3 +1,5 @@
+package WithPlayer;
+
 public interface PlayerInterface {
 
 // this is how your constructor has to be

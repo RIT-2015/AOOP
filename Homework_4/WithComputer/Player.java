@@ -1,7 +1,7 @@
 /*
- * Player.java
+ * WithPlayer.Player.java
  *
- * Version: 1: Player.java,v 1 9/19/2015 16:34:23
+ * Version: 1: WithPlayer.Player.java,v 1 9/19/2015 16:34:23
  *
  * Revisions: 1.0 initial version
  *

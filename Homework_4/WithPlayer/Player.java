@@ -1,18 +1,20 @@
 /*
- * Player.java
+ * WithPlayer.Player.java
  *
- * Version: 1: Player.java,v 1 9/19/2015 16:34:23
+ * Version: 1: WithPlayer.Player.java,v 1 9/19/2015 16:34:23
  *
  * Revisions: 1.0 initial version
  *
  */
+
+package WithPlayer;
 
 import java.util.Scanner;
 
 public class Player implements PlayerInterface {
     /**
      * The class Player stores the information about the players. It stores
-     * an object Connect4FieldInterface which the game player is playing.
+     * an object WithPlayer.Connect4FieldInterface which the game player is playing.
      * It also stores the name and game-piece character of the player.
      *
      * @author      Pratik kulkarni
@@ -27,7 +29,7 @@ public class Player implements PlayerInterface {
     // Scanner object to get the input.
 
     /**
-     * Constructor of the Player class.
+     * Constructor of the WithPlayer.Player class.
      *
      * @param connect4Field    The game object
      * @param name             Name of the player
