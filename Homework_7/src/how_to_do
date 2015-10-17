@@ -1,0 +1,17 @@
+1. make a dictionary with 26 alphabets, whilespace, new line char
+2. search if current char is in the dict
+    if yes:
+        search if current and next char are in the dict
+            if yes:
+                keep on till you get ans as NO
+            if no:
+                add the new string in the dict and print out the number
+    if no:
+        add the new string in the dict and print out the number
+3. do this for entire file.
+
+* select size of a chunk (say number of lines)
+* make dict static
+* try threading(???)
+* after lzw is done with small file try to have huffman on that file so you can
+    have even smaller file.
